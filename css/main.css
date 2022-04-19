@@ -1,0 +1,227 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;}
+html{
+    font-family: "Nunito", sans-serif  ;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* NAVBAR */
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding:0 0.5rem;
+    height: 70px ;
+}
+h1{font-style: italic;}
+
+#navbar ul{ 
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#navbar ul li a{padding-right: 0.5rem;
+                padding-left: 0.5rem;
+            }
+#navbar ul li a:hover{
+    background-color: #336ea2;
+    border-radius: 4px;
+}
+/* HOME Section */
+
+#home{
+    width: auto;
+    height: 40vw;
+    background-image: url(../images/High-speed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: #fff;
+    overflow: auto;
+   }
+   #home .textcover{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       width: 40vw;
+       height: 20rem;
+       text-align: center;
+   }
+  
+   #home h2{
+              margin-left: 5vw;
+    margin-bottom: 3vh;
+color: #062e51}
+   #home p{
+              width: 40vw;
+       margin-top: 1vh;
+       margin-left: 2vw;
+       text-indent: 3vw;
+       color: #062e51;
+       font-weight: 600;
+       background-color: rgb(190, 143, 91, 0.4);
+       border-radius: 1rem;
+       padding: 1rem;
+       margin-bottom: 3vh;
+      
+   }
+   #home a{
+               margin-left: 4vw;
+        margin-bottom: 3vh;
+        padding: 0.5rem;        
+        background-color: rgb(6, 41, 86, 0.8);
+        color:rgb(190, 143, 91) ;
+        border-radius: 5px;
+    font-weight: 650; }
+    /* ölçüleri yüzdeli ver*/
+   #home a:hover{background-color: rgb(6, 41, 86);
+    
+    color: rgb(190, 143, 91) ;
+    }
+/* CATEGORIES Section*/
+#categories{ color: #fff;
+    padding: 1rem;
+}
+/* #categories img{ width: 5rem;
+                height: 5rem;
+            border-radius: 100%;} */
+    #categories h3{ color: rgb(190, 143, 91);}
+#categories .items{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+       
+}
+.items .item{
+    width: 50%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#categories .items .item h3{ color: rgb(190, 143, 91, 0.8);}
+#categories .items .item i{ padding-bottom: 0.6rem;
+   color: rgb(190, 143, 91, 0.8);}
+  
+   /* RESERVATION Section */
+   
+   #reservation{ 
+       background-color: rgb(190, 143, 91);
+        color: #062e51;
+        padding: 1rem;
+    }
+    .choices{ display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    #reservation .choices .choice {
+        display: flex;
+        padding: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .choices .choice .choice-image {
+        margin-right: 1rem;
+        position: relative;
+    }
+    .choices .choice .choice-image img {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 100%;
+    }
+    .choices .choice .choice-image span { 
+        background: red;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+        color: #fff;
+        border-radius: 4px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        }
+    .choices .choice .right{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        }
+
+    .choices .choice .right .choice-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 1;
+       
+    }
+    .choices .choice .right .choice-info .title{
+        
+        font-weight: 700;
+        margin-bottom: 0.25rem;
+        }
+    .choices .choice .right .choice-info .description{
+        font-size: 0.8rem;
+        margin-bottom: 0.25rem;
+        font-weight: 700;
+        opacity: 0.8;    
+    }
+    .choices .choice .right .choice-info .rating{
+        font-size: 0.8rem;
+        margin-bottom: 0.25rem;
+        font-weight: 700;
+        opacity: 0.7;    
+    }
+    .choices .choice .right .yolcusayisi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+    .choices .choice .right .yolcusayisi #yolcu{
+        background-color: #062e51;
+        color: rgb(190, 143, 91);
+        font-weight: 600;
+        border-radius: 4px;
+        padding: 0.4rem;
+        text-align: center;
+        width: 30%;
+        font-size: 0.7rem;
+    }
+    .choices .choice .right .yolcusayisi #yolcu:active{
+        outline: none;
+    }
+
+    /* CONCTACTS */
+    #contact{
+        color: white;
+        padding: 1rem;}
+    #contact .contact-form{
+        
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+        }
+    
+    #contact .contact-form ul {
+        list-style: none;
+        display: flex;
+        margin-top: 1rem;
+        align-self: center;
+    }    
+    #contact .contact-form ul li a {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    #contact .contact-form ul li a:hover {
+        opacity: 0.8;
+    }

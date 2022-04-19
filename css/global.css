@@ -1,0 +1,44 @@
+/* Text */
+.text-center{
+    text-align: center;
+
+}
+/* headlines */
+.h-small{
+    font-size: 1.25rem;
+}
+.h-medium{
+    font-size: 1.5rem;
+}
+.h-big{
+    font-size: 2rem;
+}
+/* colors */
+.bg-dark-blue{
+    background-color: #062e51;
+
+}
+.bg-light-blue{
+    background-color: #336ea2;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn-block{ width: 100%;
+text-align: center;}
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-group label {
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 2px;
+}
+

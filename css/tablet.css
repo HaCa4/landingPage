@@ -1,0 +1,13 @@
+html{font-size: 12px;}
+
+#navbar{margin-left: 1rem;}
+#home{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+.textcover{
+    margin-top: 1rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="YHT, tren">
+    <title>YHT</title>
+    <meta name="YHT" content="hızlı tren  bilet">
+    <meta name="description" content="hızlı tren biletleri">
+    
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css">
+    <!-- google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+    <!-- fonts-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+<body>
+    
+    <header class="bg-dark-blue">
+        <div class="container">
+        <nav id="navbar">
+            <h1 class="h-small"> YHT</h1>
+            <ul>
+                <li><a href="#home">Anasayfa</a></li>
+                <li><a href="#categories">Kategoriler</a></li>
+                <li><a href="#reservation">Rezervasyon</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <section id="home" >
+        <div class="textcover">
+        <h2>Yüksek Hızlı Tren</h2>
+        <p> Yüksek Hızlı Tren ya da kısaca YHT, Türkiye'de TCDD'ye ait yüksek hızlı demiryolu hatları üzerinde TCDD Taşımacılık tarafından işletilen yüksek hızlı tren setleri ile sunulan yüksek hızlı demiryolu hizmetidir.</p>
+        <a href="#reservation">Rezervasyonunuzu hemen yapın</a>
+    </div>
+    </section>
+    <section id="categories" class="bg-dark-blue text-center">
+        <h3 class="tex-center h-medium">Bilet Kategorileri</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fas fa-train"></i>
+                <!-- <img src="./images/business.jpg" alt="vip"> -->
+                <h3>VIP Kategori</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ea deleniti dolorem!</p>
+            </article>
+            <article class="item">
+                <!-- <img src="./images/koltuk.jpg" alt="normal"> -->
+                <i class="fas fa-train"></i>
+                <h3>Normal Kategori</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit vitae rem voluptatem.</p>
+            </article>
+
+        </div>
+    </section>
+    <!-- RESERVATION -->
+    <section id="reservation">
+        <h3 class="text-center h-medium">Koltuk Seçimi</h3>
+        
+        <div class="container">
+            <div class="choices">
+                <!-- Koltuk-1 -->
+                <div class="choice">
+                    <div class="choice-image">
+                        <img src="./images/business.jpg" alt="vip" >
+                        <span>%60 İndirim</span>
+                    </div>
+                    <div class="right">
+                    <div class="choice-info">
+                                <div class="title"> Business Koltuk Seçimi</div>
+                                <div class="description">Tekli koltuk | Tv+ Eğlence Sistemi | Geniş diz mesafesi</div>
+                                <div class="rating"> 4.9 | 3500 yorum</div>
+                    </div>
+                    <div class="yolcusayisi">
+                        <h3 class="text-center h-light">Yolcu sayısını seçiniz</h3>
+                        <select name="yolcu" id="yolcu">
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">4</option>
+                        </select>
+                    </div>
+                </div>
+                </div>
+                <!-- Koltuk-2 -->
+                <div class="choice">
+                    <div class="choice-image">
+                        <img src="./images/koltuk.jpg" alt="standart" >
+                        <span>%30 İndirim</span>
+                    </div>
+                    <div class="right">
+                    <div class="choice-info">
+                        <div class="title"> Standart Koltuk Seçimi</div>
+                        <div class="description">İkili koltuklar | Standart diz mesafesi</div>
+                        <div class="rating"> 4.9 | 3500 yorum</div>
+                    </div>
+                    <div class="yolcusayisi">
+                        <h3 class="text-center h-light">Yolcu sayısını seçiniz</h3>
+                        <select name="yolcu" id="yolcu">
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">4</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACTS section -->
+<footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form >
+               <h4 class="text-center heading medium">  Sizlere daha iyi bir hizmet sunabilmemiz için görüş ve önerilerinizi bekliyoruz.</h4>
+               <div class="form-group">
+                <label for="name" class="name"> İsim</label>
+                <input 
+                type="text" 
+                name="name" 
+                id="name" 
+                placeholder="İsminiz" 
+                class="form-control">
+                </div>
+                
+                <div class="form-group">
+                <label for="email" class="email">E-mail</label>
+                <input 
+                type="text" 
+                name="email" 
+                id="email" 
+                placeholder="E-mail adresiniz" 
+                class="form-control">
+                </div>
+                
+                <div class="form-group">
+                <label for="message" class="message">Görüş ve Önerileriniz</label>
+                <textarea 
+                name="message" 
+                id="message" 
+                rows="5" 
+                class="form-control" 
+            placeholder="Mesajınız"></textarea> </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            <ul>
+                <li><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com"><i class="fab fa-instagram" ></i></a></li>
+            </ul>
+        </div>
+</footer>
+</body>
+</html>
